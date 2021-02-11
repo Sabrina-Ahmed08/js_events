@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>js/jq</title>
+  </head>
+  <body>
+    <div class="container">
+    <!-- exmpl-1 -->
+    <h1 class="text-info">1) click the button to change the text</h1>
+    <button type="button" class="btn btn-danger" onclick="textChange()">click me</button>
+      <h2 id="h2">Hello eveyone</h2>
+      <!-- exmpl-2 -->
+      <p class="exmpl">Example-2</p>
+      <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+      <p id="demo"></p>
+      <!-- exmpl-3 -->
+      <p class="exmpl">Example-3</p>
+     Enter your name: <input type="text" id="fname" onblur="myFunction()">
+
+      <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+      <!-- exmpl-4 -->
+      <p class="exmpl">Example-4</p>
+      <form>
+     Choose which browser you prefer:
+      <select id="browsers" onchange="preferedBrowser()">
+      <option value="Chrome">Chrome</option>
+      <option value="Internet Explorer">Internet Explorer</option>
+      <option value="Firefox">Firefox</option>
+      </select>
+      </form>
+      <!-- exmpl-5 -->
+      <p class="exmpl">Example-5</p>
+      <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">Mouse over this text</h1>
+      <!-- exmpl-6 -->
+      <p class="exmpl">Example-6</p>
+     <h2>My First JavaScript</h2>
+     <p id="demo">This is a paragraph.</p>
+
+     <button type="button" onclick="displayDate()">Display Date</button>
+     <!-- exmpl-7 -->
+     <p class="exmpl">Example-7</p>
+     <p onmousedown="show_coords(event)">
+      Click this paragraph to display the x and y coordinates of the mouse pointer.</p>
+
+     <p id="demo"></p>
+
+
+
+    </div>
+
+    
+
+    <!--  JS links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
